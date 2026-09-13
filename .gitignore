@@ -1,0 +1,37 @@
+# Local dependencies and build trees
+/external/
+/build*/
+/out/
+/work/
+/CMakeUserPresets.json
+**/CMakeFiles/
+**/CMakeCache.txt
+**/Testing/
+**/compile_commands.json
+
+# Compiled plug-ins, installers, and compiler artifacts
+*.vst3
+*.exe
+*.dll
+*.lib
+*.a
+*.o
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.log
+*.zip
+
+# Local editor/OS files
+/.vs/
+/.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local credentials
+.env
+.env.*
+*.pem
+*.key
